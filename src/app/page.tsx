@@ -105,6 +105,16 @@ export default function LoginPage() {
             </div>
           ))}
         </div>
+
+        {/* 사업자 정보 / 환불 정책 */}
+        <div className="mt-6 flex items-center justify-center gap-4 text-xs text-[#4A5568]">
+          <a href="/business" className="hover:text-[#00E5C8] transition-colors underline">사업자 정보</a>
+          <span>·</span>
+          <a href="/refund" className="hover:text-[#00E5C8] transition-colors underline">환불 정책</a>
+        </div>
+        <div className="mt-2 text-center text-[10px] text-[#4A5568]">
+          링난타임즈코리아 · 사업자등록번호 225-88-03017
+        </div>
       </div>
     </div>
   )
