@@ -663,7 +663,7 @@ export async function generateScanAIReport(
   const perfIssues = devices.filter(d => d.risk === 'Critical' || d.risk === 'High').slice(0, 5)
   perfIssues.forEach(d => {
     const displayName = d.customName || d.host
-    setFill(i => i % 2 === 0 ? C.lightGray : C.white)
+   
     setFill([250, 245, 235])
     setDraw([230, 200, 150])
     doc.setLineWidth(0.2)
