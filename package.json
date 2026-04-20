@@ -15,7 +15,8 @@
     "@supabase/ssr": "^0.4.0",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.2",
-    "recharts": "^2.12.4"
+    "html2canvas": "^1.4.1",
+	"recharts": "^2.12.4"
   },
   "devDependencies": {
     "typescript": "^5",
