@@ -250,7 +250,7 @@ function buildReportHTML(
       <table style="width:100%;border-collapse:collapse;font-size:11px">
         <thead>
           <tr style="background:#0F172A;color:white">
-            ${[P.ipAddress, lang==='ko'?'자산명':'Asset Name', P.deviceType, P.vendor, P.riskLevel, P.status].map(h =>
+            ${[T.ipAddress, lang==='ko'?'자산명':'Asset Name', T.deviceType, T.vendor, T.riskLevel, T.status].map(h =>
               `<th style="padding:8px 10px;text-align:left;font-size:10px;font-weight:700;letter-spacing:.5px">${h}</th>`
             ).join('')}
           </tr>
